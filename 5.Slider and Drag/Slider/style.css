@@ -1,0 +1,47 @@
+.slides {
+  width: 60%;
+  margin: 3rem auto;
+  position: relative;
+}
+
+.slides img {
+  width: 100%;
+  height: 500px;
+}
+
+.slides .left, .slides .right {
+  position: absolute;
+  background-color: aqua;
+  padding: 20px 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.slides .left {
+  left: 10px;
+}
+
+.slides .right {
+  right: 10px;
+}
+
+.dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dots i {
+  color: aqua;
+}
+
+.active {
+  color: black !important;
+}
+/*# sourceMappingURL=style.css.map */
